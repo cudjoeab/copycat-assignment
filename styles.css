@@ -1,56 +1,123 @@
 *{
     box-sizing: border-box;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0; 
 }
 
+/*top bar*/
 header{
     background-color:  #06D6A0;
     
 }
 
+h1 {
+    padding: 10px; 
+}
+
 .logo{
+    float: left;
     text-align: left; 
-    margin: 0;
-    font-size: 30px;
+    font-size: 18px;
     color: white; 
+    line-height: 40px; 
+    padding: 10px 5px 5px 5px; 
 }
 
 .navbar{
-    float: right;
+    height: 60px; 
     padding: 0;
+    list-style-type: none; 
+    margin-left: 10px; 
 
 }
 
-ul{
-    display: block; 
+
+.nav-item {
+    display: inline-block; 
+    float: right; 
+    position: relative; 
+    top: 30px; 
+
 }
+
+li > a {
+    margin: 10px; 
+}
+
+/*page content*/
 
 main{
-    margin-left: auto;
-    margin-right: auto; 
+    max-width: 80%; 
+    margin: 0 auto; 
+     
+
 }
 
-.welcome{
+p {
+    padding: 10px; 
+}
+
+
+
+.welcome {
     background-color:  #26547C;
-    margin-bottom: 5%;  
+    display: grid; 
+    grid-template-columns: 60% 40%; 
+    padding-bottom; 10px; 
+}
+
+.wallpaper-cat {
+    max-width: 100%;
+    margin-bottom: 2%; 
 }
 
 h2 {
     color: white; 
+    text-align: center; 
+    font-size: 2.0em; 
+    font-weight: 700; 
+    padding: 0 0 5px; 
 }
 
 .cats {
     background-color: #FFD166;
+    padding: 10px; 
   }
   
 .products {
     background-color: #F2F2F2;
+    margin-bottom: 0; 
+    padding: 10px; 
   }
+ 
+.products > ul {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-gap: 1em; 
+    padding: 0.5em; 
+}
+.product-item {
+    list-style-type: none;
+    border: 3px solid black;   
+
+}
   
 .about {
     background-color: #26547C;
     color: white;
+    padding: 10px; 
   }
+
+.team {
+    list-style-type: none;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    color: #EF476F;
+    grid-gap: 1em; 
+    margin: 0 auto; 
+    padding: 10px; 
+    text-align: center; 
+}
 
 footer {
     background-color: #06D6A0;
@@ -59,6 +126,7 @@ footer {
     text-align: right;
     padding: 0 20px;
   }
+
 img{
     max-width: 100%; 
 }
