@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header{
+    background-color:  #06D6A0;
+    
+}
+
+.logo{
+    text-align: left; 
+    margin: 0;
+    font-size: 30px;
+    color: white; 
+}
+
+.navbar{
+    float: right;
+    padding: 0;
+
+}
+
+ul{
+    display: block; 
+}
+
+main{
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.welcome{
+    background-color:  #26547C;
+    margin-bottom: 5%;  
+}
+
+h2 {
+    color: white; 
+}
+
+.cats {
+    background-color: #FFD166;
+  }
+  
+.products {
+    background-color: #F2F2F2;
+  }
+  
+.about {
+    background-color: #26547C;
+    color: white;
+  }
+
+footer {
+    background-color: #06D6A0;
+    height: 50px;
+    line-height: 50px;
+    text-align: right;
+    padding: 0 20px;
+  }
+img{
+    max-width: 100%; 
+}
+
+.product-img{
+    display: grid;
+    
+}
+
